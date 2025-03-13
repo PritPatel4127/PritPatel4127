@@ -30,9 +30,7 @@ function closeMenu(){
 }
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Physical Fitness', 'Weight Gain/Loss','Strength Training','Muscle Building'
-                ,'Powerlifting','Olympic Weight-Lifting','Personal Training'
-    ],
+    strings: ['Cricket', 'Volleyball','Football','Pickleball'],
     typeSpeed: 50,
     backSpeed: 50,
     backDelay: 1000,
