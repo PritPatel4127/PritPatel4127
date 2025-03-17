@@ -132,6 +132,7 @@ span{
     justify-content: center;
     align-items: center;
     --text-color: #fa0707; /* Clean white-green */
+    background: url('Docs/Box.jpeg') no-repeat center center/cover;
     --main-color: #000; /* Refreshing neon mint */
 }
 .home-content{
@@ -577,7 +578,7 @@ span{
 
 
 /* Webpage Resolution */
-@media (max-width: 1200px){
+@media (max-width: 768px){
     html{
         font-size: 55%;
     }
@@ -618,7 +619,7 @@ span{
         margin-top: 5rem;
     }
 }
-@media (max-width: 991px){
+@media (max-width: 768px){
     /* Navigation Bar */
     #menu-icon{
         display: block;
@@ -742,7 +743,7 @@ span{
         padding: 40px 0;
     }
 }
-@media (max-width: 786px){
+@media (max-width: 768px){
     /* Navigation Bar */
     #menu-icon{
         display: block;
@@ -832,7 +833,7 @@ span{
         font-size: 2rem;
     }
 }
-@media (max-width:617px){
+@media (max-width:768px){
     /* Navigation Bar */
     .logo{
         font-size: 4rem;
@@ -930,7 +931,7 @@ span{
         font-size: 2rem;
     }
 }
-@media (max-width:480px){
+@media (max-width:768px){
     /* Navigation Bar */
     #menu-icon{
         display: block;
