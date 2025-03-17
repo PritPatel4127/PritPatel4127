@@ -22,7 +22,7 @@
     --main-color : #45ffca;  */
     --bg-color: linear-gradient(135deg, #003d00, #006b00); /* Elegant deep green */
     --secondary-bg-color: linear-gradient(to right, #28a745, #33cc33); /* Cricket ground green */
-    --text-color: #f0fff0; /* Clean white-green */
+    --text-color: #fff0f0; /* Clean white-green */
     --main-color: #66ff99; /* Refreshing neon mint */
     
 
@@ -131,6 +131,8 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    --text-color: #fa0707; /* Clean white-green */
+    --main-color: #000; /* Refreshing neon mint */
 }
 .home-content{
     position: absolute;
@@ -202,6 +204,7 @@ span{
 .services{
     background: var(--secondary-bg-color);
     text-align: center;
+    background: url('Docs/Box.jpeg') no-repeat center center/cover;
 }
 .heading{
     display: inline-block;
@@ -232,7 +235,7 @@ span{
 .row img{
     height: auto;
     width: 100%;
-    border-radius: 27px;
+    border-radius: 10px;
     margin-bottom: 1.4rem;
 }
 .row h4{
